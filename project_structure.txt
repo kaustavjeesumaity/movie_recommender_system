@@ -1,0 +1,16 @@
+movie_recommender/
+│
+├── notebooks/               # For Jupyter notebook exploration
+│   └── data_exploration.ipynb
+│
+├── src/                     # For your modules
+│   ├── data_loader.py
+│   ├── data_analyzer.py
+│   ├── recommender.py
+│   └── __init__.py
+│
+├── data/                    # For storing datasets
+│
+├── requirements.txt         # Project dependencies
+│
+└── README.md                # Project documentation
