@@ -34,4 +34,4 @@ class MovieRecommender:
         sim_scores = sim_scores[1:n+1]
         movie_indices = [i[0] for i in sim_scores]
         
-        return self.movies.iloc[movie_indices][['title', 'genres']].reset_index(drop=True)
+        return self.movies.iloc[movie_indices][['movieId','title', 'genres']].reset_index(drop=True)

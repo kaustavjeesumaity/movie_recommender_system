@@ -52,3 +52,6 @@ class DataLoader:
             return pd.read_csv(path)
         except FileNotFoundError:
             return None
+    def load_links(self, filepath):
+        """Load links data containing TMDB IDs"""
+        return pd.read_csv(filepath)
